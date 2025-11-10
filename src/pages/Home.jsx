@@ -20,11 +20,11 @@ const Home = () => {
             </span>
           </div>
           <div>
-            <img
-              src="./src/assets/photo.jpg"
-              alt="img"
-              className="w-[200px] md:[300px] rounded-[50%]  md:mr-14 mr-6 mt-4"
-            />
+            {/* <img */}
+              // src="./src/assets/photo.jpg"
+              // alt="img"
+              // className="w-[200px] md:[300px] rounded-[50%]  md:mr-14 mr-6 mt-4"
+            // 
           </div>
         </div>
         <div className=" px-4 my-4 md:mx-10">

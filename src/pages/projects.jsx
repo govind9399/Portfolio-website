@@ -6,8 +6,8 @@ const Projects = () => {
       <h1 className="text-center text-2xl font-semibold py-5">
         Featured Projects
       </h1>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 px-4" >
-        <div className="bg-gray-700 pr-3 h-[400px]">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 px-4 " >
+        <div className="bg-gray-700 pr-3 h-[400px] rounded-2xl shadow-2xs">
           <div className="flex w-full h-[50%] justify-center items-center">
             <h1 className="text-2xl font-semibold">Progress</h1>
           </div>
@@ -23,19 +23,19 @@ const Projects = () => {
           <div className="pl-5 my-3 flex ">
             <Link
               to="https://github.com/govind9399/Digital_Education"
-              className="text-sky-500 flex gap-2"
+              className="text-sky-500 font-semibold text-[17px] flex gap-2"
             >
-              <FaGithub className="size-5" />
+              <FaGithub className="text-2xl text-white" />
               Code
             </Link>
-            <Link to="#" className="text-sky-500 ml-7">
+            <Link to="#" className="text-sky-500 text-[17px] font-semibold ml-7">
               Live Demo
             </Link>
           </div>
         </div>
 
-        <div className="bg-gray-700 pr-3 h-[400px]">
-          <div className="flex w-full h-[50%] justify-center items-center">
+        <div className="bg-gray-700 pr-3 h-[400px] rounded-2xl">
+          <div className="flex w-full h-[50%] justify-center items-center ">
             <h1 className="text-2xl font-semibold">Live Preview</h1>
           </div>
           <h2 className="pl-5">
@@ -49,21 +49,21 @@ const Projects = () => {
           <div className="pl-5 my-3 flex ">
             <Link
               to="https://github.com/govind9399/Amazon-clone"
-              className="text-sky-500 flex gap-2"
+              className="text-sky-500 text-[17px]  font-semibold flex gap-2"
             >
-              <FaGithub className="size-5" />
+              <FaGithub className="text-2xl text-white" />
               Code
             </Link>
             <Link
               to="https://govind9399.github.io/Amazon-clone/"
-              className="text-sky-500 ml-7"
+              className="text-sky-500 text-[17px] font-semibold ml-7"
             >
               Live Demo
             </Link>
           </div>
         </div>
 
-        <div className="bg-gray-700 pr-3 h-[400px]">
+        <div className="bg-gray-700 pr-3 h-[400px] rounded-2xl">
           <div className="flex w-full h-[50%] justify-center items-center">
             <h1 className="text-2xl font-semibold">Live Preview</h1>
           </div>
@@ -78,19 +78,17 @@ const Projects = () => {
 
           <div className="pl-5 my-3 flex">
             <Link
-              to="https://github.com/govind9399/pw-skills"
-              className="text-sky-500 flex gap-2"
-            >
-              <FaGithub className="size-5" />
+              to="https://github.com/govind9399/pw-skills" className="text-sky-500 text-[17px] font-semibold  flex gap-2">
+              <FaGithub className="text-2xl text-white" />
               Code
             </Link>
-            <Link to="#" className="text-sky-500 ml-7">
+            <Link to="#" className="text-sky-500 text-[17px] font-semibold ml-7">
               Live Demo
             </Link>
           </div>
         </div>
 
-        <div className="bg-gray-700 pr-3 h-[400px]">
+        <div className="bg-gray-700 pr-3 h-[400px] rounded-2xl shadow-2xs">
           <div className="flex w-full h-[50%] justify-center items-center">
             <h1 className="text-2xl font-semibold">Live Preview</h1>
           </div>
@@ -105,14 +103,14 @@ const Projects = () => {
           <div className="pl-5 my-3 flex ">
             <Link
               to="https://govind9399.github.io/Netflix-cards/"
-              className="text-sky-500 flex gap-2"
+              className="text-sky-500 text-[17px] font-semibold  flex gap-2"
             >
-              <FaGithub className="size-5" />
+              <FaGithub className="text-white text-2xl" />
               Code
             </Link>
             <Link
               to="netflix-cards-omega.vercel.app"
-              className="text-sky-500 ml-7"
+              className="text-sky-500 text-[17px] ml-7 font-semibold"
             >
               Live Demo
             </Link>
